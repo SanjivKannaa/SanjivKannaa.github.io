@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "sanjiv" && password === "pass") {
         alert("You have successfully logged in.");
-        location.reload();
+        window.open('sanjivkannaa.github.io/home.html');
     } else {
         loginErrorMsg.style.opacity = 1;
     }
