@@ -1,4 +1,4 @@
 # SanjivKannaa.github.io
 
 
-# visit www.magickite.tech
+# visit portfolio.magickite.tech
