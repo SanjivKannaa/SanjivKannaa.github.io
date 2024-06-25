@@ -2,7 +2,9 @@ version: '3.8'
 
 services:
   web:
-    image: python:3.9-slim
+    container_name: gui_portfolio
+    build: .
+    working_dir: /app
     command: python3 -m http.server 8080
     ports:
       - "${port}:8080"
